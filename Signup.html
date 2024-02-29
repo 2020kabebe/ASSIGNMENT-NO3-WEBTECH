@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+ <form action="register" method="post" id="secondForm" class="signupform">
+            <h2>STUDENT REGISTRATION FORM</h2>
+         
+            <div class="social-icons">
+                <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>           
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="off">
+                <i class="icon"></i>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="off">
+                <i class="icon"></i>
+            </div>
+            
+            <div class="form-control">
+                <label for="image">Passport Picture</label>
+                <input type="file" id="image" name="image" placeholder="Select Passport Picture" autocomplete="off" accept=".png,.jpg">
+                <i class="icon"></i>
+            </div>
+            
+            <div class="form-control">
+                <label for="file">Certificate</label>
+                <input type="file" id="file" name="file" placeholder="Upload Certificate" autocomplete="off" accept=".pdf">
+                <i class="icon"></i>
+            </div>                        
+
+            <div class="form-control">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter phone number" autocomplete="off">
+                <i class="icon"></i>
+            </div>
+            
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" autocomplete="off">
+                <i class="icon"></i>
+            </div>
+            
+            <div class="form-control">
+                <label for="password">Confirm Password</label>
+                <input type="password" id="password" name="confirmpassword" placeholder="Enter your password" autocomplete="off">
+                <i class="icon"></i>
+            </div>            
+			
+			<br>
+            <button type="submit">Signup</button>
+            <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
+        </form>
+    </div>
+
+    <div id="successModel" class="model">
+        <div class="model-content">
+            
+            <p>You have successfully submitted!</p>
+        </div>
+    </div>
+    <script src="./assets_styles/script.js"></script>
+</body>
+</html>
